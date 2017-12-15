@@ -2,4 +2,5 @@
 *.layout
 *.cbp
 obj
+bin/fcsim
 lib_finder.script
