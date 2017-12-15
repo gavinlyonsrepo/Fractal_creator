@@ -8,14 +8,15 @@ Overview
 
 * Description: 
 This program is written in C++. 
-This project creates a bitmap file and then applies two magnification functions 
+This project creates a bitmap file (800x600) and 
+then applies two magnification functions 
 to a sector of that file. The bitmap is a graphic image.
-The graphic image is a fractal created by the the Mandelbrot Set.
+The graphic image is a fractal created by the Mandelbrot Set.
 A fractal in mathematics is an abstract object used to describe 
 and simulate naturally occurring objects. Fractals can also be nearly the 
 same at different levels. 
 This latter pattern is illustrated in magnifications of the Mandelbrot set.
-Mandelbrot set a set of points in the complex plane that is self-replicating 
+Mandelbrot set is a set of points in the complex plane that is self-replicating 
 according to some predetermined rule such that the boundary of the set has 
 fractal dimensions, used in the study of fractal geometry and in producing 
 patterns in computer graphics.
