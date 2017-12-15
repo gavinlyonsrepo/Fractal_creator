@@ -1,7 +1,7 @@
 # --- constants
 CC=g++
 CFLAGS=-Wall -g -c
-LDFLAGS=-Wall -g -L /usr/lib/x86_64-linux-gnu -l 
+LDFLAGS=-Wall -g -L /usr/lib/x86_64-linux-gnu 
 SOURCES = $(wildcard ./src/*.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 BIN=./bin

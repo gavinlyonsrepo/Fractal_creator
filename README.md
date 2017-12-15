@@ -1,9 +1,27 @@
 
 Overview
 --------------------------------------------
+
 * Name: fractal_creator
+
 * Title : Fractal Creator
-* Description: Work in progress
+
+* Description: 
+This program is written in C++. 
+This project creates a bitmap file and then applies two magnification functions 
+to a sector of that file. The bitmap is a graphic image.
+The graphic image is a fractal created by the the Mandelbrot Set.
+A fractal in mathematics is an abstract object used to describe 
+and simulate naturally occurring objects. Fractals can also be nearly the 
+same at different levels. 
+This latter pattern is illustrated in magnifications of the Mandelbrot set.
+Mandelbrot set a set of points in the complex plane that is self-replicating 
+according to some predetermined rule such that the boundary of the set has 
+fractal dimensions, used in the study of fractal geometry and in producing 
+patterns in computer graphics.
+A demonstration project at present, 
+although may be expanded in future.
+
 * Author: Gavin Lyons
 
 Table of contents
@@ -20,44 +38,49 @@ Table of contents
   * [History](#history)
   * [Copyright](#copyright)
 
+
 Installation
 -----------------------------------------------
 For local install on Linux based OS 
 
 * Download latest release
-* extract
+* extract tarball
 * cd into same path as Makefile
-* run make command on makefile
-* copy exe pfsim to where you want it
-
+* run make 
+* copy exe at .bin/fcsim to where you want it
 
 
 Usage
 -------------------------------------------
-Type in terminal at path where pfsim is placed.
+Type in terminal at path where fcsim is placed.
 
 ```sh
-./pfsim 
+./fcsim 
 ```
 
 Output 
 -------------------------------------
-BMP Output files are outputted to
+Bitmap Output files are outputted to:-
 where RRRR is random number.
 
 ```sh
 /tmp/FractalRRRR.BMP
 ```
 
+There is also some minor console output.
+
+There are screenshots of output in screenshot folder in this repo. 
 
 See Also
 -----------
 * [Mandelbrot_set](https://en.wikipedia.org/wiki/Mandelbrot_set)
 * [Fractal](https://en.wikipedia.org/wiki/Fractal)
 
+There are screenshots of output in screenshot folder in this repo. 
+
 Credits
 -------------------------------
-John Purcell @ caveofprogramming.com
+John Purcell @ www.caveofprogramming.com C++ training course. 
 
 Communication
 -----------

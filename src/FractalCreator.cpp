@@ -28,7 +28,7 @@ void FractalCreator::addRange(double rangeEnd, const RGB& rgb) {
 int FractalCreator::getRange(int iterations) const {
 	int range = 0;
 
-	for (int i = 1; i < m_ranges.size(); i++) {
+	for (unsigned int i = 1; i < m_ranges.size(); i++) {
 
 		if (m_ranges[i] > iterations) {
 			break;
@@ -121,6 +121,7 @@ void FractalCreator::drawFractal() {
 			int range = getRange(iterations);
 			int rangeTotal = m_rangeTotals[range];
 			int rangeStart = m_ranges[range];
+
 
 			RGB& startColor = m_colors[range];
 			RGB& endColor = m_colors[range + 1];

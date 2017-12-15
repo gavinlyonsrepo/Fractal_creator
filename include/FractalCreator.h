@@ -55,7 +55,7 @@ private:
 	void drawFractal();
 	// write the bitmap pass it a filename
 	void writeBitmap(string name);
-	//
+
 	int getRange(int iterations) const;
 
 public:
