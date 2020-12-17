@@ -22,7 +22,7 @@ fractal dimensions, used in the study of fractal geometry and in producing
 patterns in computer graphics.
 
 * Author: Gavin Lyons
-* Credits: COde based on www.caveofprogramming.com C++ training course. 
+* Credits: C0de based on www.caveofprogramming.com C++ training course. 
 
 Installation
 -----------------------------------------------
@@ -62,13 +62,3 @@ See Also
 * [Fractal](https://en.wikipedia.org/wiki/Fractal)
 
 There are screenshots of output in screenshot folder in this repo. 
-
-
- 
-Copyright
----------
-Copyright (C) 2017 Gavin Lyons 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public license published by
-the Free Software Foundation, see LICENSE.md in documentation section 
-for more details
