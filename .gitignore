@@ -1,6 +1,6 @@
 *.depend
 *.layout
 *.cbp
-obj
-bin/fcsim
+obj/
+bin/
 lib_finder.script
