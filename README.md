@@ -42,7 +42,7 @@ Arguments list
 | 1 | width Resolution | 800 | width of bmp file | 
 | 2 | height Resolution| 600 | height of bmp file | 
 | 3 | zoom Scale |  0.1 | smaller the number higher the zoom | 
-| 4 | number of Zooms | 0 | 0, 1 or 2| 
+| 4 | number of Zooms | 2 | 0, 1 or 2| 
 
 Output 
 
