@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : Zoomlist.h
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : header file for class zoomlist.cpp class, to store list of zooms
-//============================================================================
+/*!
+ @file Zoomlist.h
+ @brief   header file for class zoomlist.cpp class, to store list of zooms
+*/
 
 #ifndef ZOOMLIST_H_
 #define ZOOMLIST_H_
@@ -13,14 +10,20 @@
 #include <vector>
 // for pair to store pair of values
 #include <utility>
-
 #include "Zoom.h"
 
-using namespace std;
 
 namespace myfractals {
 
 class ZoomList {
+public:
+
+	// constructor stub
+	ZoomList(int width, int height);
+	// Add a new zoom to list
+	void add(const Zoom& zoom);
+	//m
+	std::pair<double, double> doZoom(int x, int y);
 private:
 	double m_xCenter{0};
 	double m_yCenter{0};
@@ -30,16 +33,7 @@ private:
 	int m_width{0};
 	int m_height{0};
 	// vector to store zoom list
-	vector<Zoom> zooms;
-
-public:
-
-	// constructor stub
-	ZoomList(int width, int height);
-	// Add a new zoom to list
-	void add(const Zoom& zoom);
-	//
-	pair<double, double> doZoom(int x, int y);
+	std::vector<Zoom> zooms;
 };
 
 } /* namespace myfractals */

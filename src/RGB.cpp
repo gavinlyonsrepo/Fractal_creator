@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : RGB.cpp
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : A class to display and change RGB colour
-//============================================================================
+/*!
+ @file RGB.cpp
+ @brief   A class to display and change RGB colour
+*/
 
 #include "RGB.h"
 

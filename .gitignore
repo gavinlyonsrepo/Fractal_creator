@@ -1,6 +1,9 @@
 *.depend
 *.layout
 *.cbp
+lib_finder.script
 obj/
 bin/
-lib_finder.script
+Bin/
+Build/
+stuff/

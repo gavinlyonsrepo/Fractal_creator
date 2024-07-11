@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : Bitmap.cpp
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : Class to contain methods to create bitmap
-//============================================================================
+/*!
+ @file Bitmap.cpp
+ @brief   Class to contain methods to create bitmap
+*/
 
 #include <fstream>
 

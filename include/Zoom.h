@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : Zoom.h
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : header to hold struct for zoom
-//============================================================================
+/*!
+ @file Zoom.h
+ @brief   header to hold struct for zoom
+*/
 
 #ifndef ZOOM_H_
 #define ZOOM_H_

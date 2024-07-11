@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : BitmapFileHeader.h
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : Header file to make valid bitmap file header
-//============================================================================
+/*!
+ @file BitmapFileHeader.h
+ @brief   Header file to make valid bitmap file header
+*/
 
 #ifndef BITMAPFILEHEADER_H_
 #define BITMAPFILEHEADER_H_
@@ -18,7 +15,7 @@ using namespace std;
 
 namespace myfractals {
 
-// Struct to be written to top of file.
+// Struct to be written to top of file. (3*4) + 2 = 14 bytes 
 struct BitmapFileHeader {
 	char header[2] { 'B', 'M' };
 	int32_t fileSize;

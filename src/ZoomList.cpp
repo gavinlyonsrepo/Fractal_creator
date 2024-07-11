@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : ZoomList.cpp
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description :
-//============================================================================
+/*!
+ @file ZoomList.cpp
+ @brief  
+*/
 
 #include "ZoomList.h"
 

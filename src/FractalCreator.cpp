@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : FractalCreator.cpp
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : file to create the fractal contains class FractalCreator
-//============================================================================
+/*!
+ @file FractalCreator.cpp
+ @brief   file to create the fractal contains class FractalCreator
+*/
 
 #include "FractalCreator.h"
 

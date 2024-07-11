@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : RGB.h
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : header file for RGB.cpp containing a class for displaying  RGB colour
-//============================================================================
+/*!
+ @file RGB.h
+ @brief   header file for RGB.cpp containing a class for displaying  RGB colour
+*/
 
 #ifndef RGB_H_
 #define RGB_H_

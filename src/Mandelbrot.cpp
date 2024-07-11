@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : Mandelbrot.cpp
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : class to plot mandelbrot
-//============================================================================
+/*!
+ @file Mandelbrot.cpp
+ @brief   class to plot mandelbrot
+*/
 
 // complex numbers lib
 #include <complex>

@@ -1,10 +1,7 @@
-//============================================================================
-// Name        : BitmapInfoHeader.h
-// Author      : Gavin Lyons
-// Version     : 1.0
-// Copyright   : GPL-3
-// Description : header file with information about bitmap which follows bitmap header
-//============================================================================
+/*!
+ @file BitmapInfoHeader.h
+ @brief   header file with information about bitmap which follows bitmap header
+*/
 
 #ifndef BITMAPINFOHEADER_H_
 #define BITMAPINFOHEADER_H_
@@ -20,7 +17,7 @@ namespace myfractals {
 
 struct BitmapInfoHeader {
 	// size of the struct
-	int32_t headerSize{40};
+	int32_t headerSize{40}; //(9*4)+(2*2) 40 bytes
 
 	// width and height of bitmap
 	int32_t width;
