@@ -12,14 +12,13 @@ to a sector of that file. The bitmap is a graphic image.
 The graphic image is a fractal created by the Mandelbrot Set.
 A fractal in mathematics is an abstract object used to describe 
 and simulate naturally occurring objects. Fractals can also be nearly the 
-same at different levels. 
+same at different levels. For Linux based OS.
 
 * Author: Gavin Lyons
 * Credits: Based on code from www.caveofprogramming.com  
 
 Download
 -----------------------------------------------
-For local install on Linux based OS 
 
 ```sh
 cd ~/Downloads
@@ -28,13 +27,12 @@ unzip main.zip
 cd Fractal_creator/-master
 ```
 
-
 Build
 --------------------------------------
 
 * run 'make'  to build
 * Exe file made at ./Bin/fcsim 
-* run 'make help' for all the other options in make file including in install). 
+* run 'make help' for all the other options in make file including in install. 
 
 Usage
 ------------------------------------------
