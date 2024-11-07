@@ -17,19 +17,28 @@ same at different levels.
 * Author: Gavin Lyons
 * Credits: Based on code from www.caveofprogramming.com  
 
-Installation
+Download
 -----------------------------------------------
 For local install on Linux based OS 
 
-* Download github directory
-* extract tarball
-* 'cd' into same path as Makefile
+```sh
+cd ~/Downloads
+curl -L -O https://github.com/gavinlyonsrepo/Fractal_creator/archive/master.zip 
+unzip main.zip  
+cd Fractal_creator/-master
+```
+
+
+Build
+--------------------------------------
+
 * run 'make'  to build
 * Exe file made at ./Bin/fcsim 
-* run 'make help' for all options. 
+* run 'make help' for all the other options in make file including in install). 
 
 Usage
 ------------------------------------------
+
 
 ```
 fcsim  [arguments]
