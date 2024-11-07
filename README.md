@@ -24,7 +24,7 @@ Download
 cd ~/Downloads
 curl -L -O https://github.com/gavinlyonsrepo/Fractal_creator/archive/master.zip 
 unzip master.zip  
-cd Fractal_creator/-master
+cd Fractal_creator-master
 ```
 
 Build
